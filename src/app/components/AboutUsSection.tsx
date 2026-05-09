@@ -18,7 +18,7 @@ export default function AboutSection() {
               className="rounded-2xl shadow-lg relative z-10 w-full h-auto object-cover"
             />
             {/* Floating stat */}
-            <div className="absolute -bottom-5 -right-3 bg-white rounded-xl shadow-lg p-4 z-20 flex items-center gap-3" style={{ border: "1px solid rgba(200,151,58,0.2)" }}>
+            {/* <div className="absolute -bottom-5 -right-3 bg-white rounded-xl shadow-lg p-4 z-20 flex items-center gap-3" style={{ border: "1px solid rgba(200,151,58,0.2)" }}>
               <div className="w-10 h-10 rounded-lg flex items-center justify-center" style={{ background: "rgba(200,151,58,0.1)" }}>
                 <Award size={20} style={{ color: "var(--ayu-gold)" }} />
               </div>
@@ -26,7 +26,7 @@ export default function AboutSection() {
                 <p className="text-lg font-bold leading-none" style={{ color: "var(--ayu-forest)", fontFamily: "var(--font-heading)" }}>25+</p>
                 <p className="text-xs text-gray-500">Years of Excellence</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
