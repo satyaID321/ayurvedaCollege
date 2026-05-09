@@ -38,7 +38,7 @@ export default function Footer() {
         {/* Branding */}
         <div className="lg:col-span-1">
           <div className="flex items-center gap-3 mb-4">
-            <Image src="/images/hospital_logo.png" alt="Logo" width={60} height={60} className="h-14 w-auto opacity-90" />
+            {/* <Image src="/images/hospital_logo.png" alt="Logo" width={60} height={60} className="h-14 w-auto opacity-90" /> */}
             <div>
               <p className="text-xs font-bold" style={{ color: "var(--ayu-amber)" }}>SVKM&apos;s</p>
               <p className="text-sm font-bold leading-tight text-white" style={{ fontFamily: "var(--font-heading)" }}>Smt. Krutiben Bhupeshbhai Patel</p>
